@@ -1,0 +1,80 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* SECTION 1 - Love Animation */
+.section-1 {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #312;
+  position: relative;
+}
+
+.container {
+  width: 50rem;
+  height: 20rem;
+  position: relative;
+}
+
+.svg-container {
+  z-index: 2;
+  position: absolute;
+}
+
+.mo-container {
+  width: 100%;
+  height: 100%;
+}
+
+.line {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.lttr {
+  fill: #763c8c;
+}
+
+.sound {
+  position: absolute;
+  color: #763c8c;
+  font-size: 1.6rem;
+  bottom: 1rem;
+  right: 1rem;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.sound--off {
+  text-decoration: line-through;
+}
+
+/* SECTION 2 - Infinite Hearts */
+.section-2 {
+  min-height: 100vh;
+  background-color: #312;
+  position: relative;
+}
+
+.section-2 canvas {
+  background-color: #312;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
